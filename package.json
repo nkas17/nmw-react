@@ -1,5 +1,6 @@
 {
   "name": "@nmw/react",
+  "private": false,
   "workspaces": ["./packages/*"],
   "scripts": {
     "build": "npm run build --workspaces --if-present",

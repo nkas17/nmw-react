@@ -1,18 +1,19 @@
 {
   "name": "@nmw/react-documentation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "app for documenting implementing and testing components during development",
   "main": "index.tsx",
   "scripts": {
     "start": "nodemon",
     "start:dev": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack",
     "format": "prettier --check \"**/*.*\"",
     "lint": "eslint . --ext tsx,ts",
     "test": "jest --passWithNoTests",
     "pre-push": "npm run lint && npm run format && npm run test"
   },
   "author": "nathanmweller",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@nmw/react-components": "*",
     "react": "18.2.0",

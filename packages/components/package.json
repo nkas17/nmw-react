@@ -1,7 +1,7 @@
 {
   "name": "@nmw/react-components",
-  "version": "0.0.1",
-  "description": "react components - working towards everything you'll ever need",
+  "version": "0.0.2",
+  "description": "react components - working towards most things you'll need",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -23,10 +23,14 @@
     "pre-push": "npm run lint && npm run format && npm run test"
   },
   "keywords": [
-    "react"
+    "nmw",
+    "react",
+    "components"
   ],
   "author": "nathanmweller",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "https://github.com/nkas17/nmw-react",
+  "homepage": "https://nmw-react.nathanmweller.com",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
