@@ -1,0 +1,4 @@
+{
+  "watch": ["webpack.config.dev.js"],
+  "exec": "npm run start:dev"
+}

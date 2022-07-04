@@ -1,0 +1,22 @@
+@import 'variables';
+
+.nmw-card {
+  margin: 16px;
+  min-height: 96px;
+  padding: 32px;
+  border-radius: 32px;
+}
+
+.nmw-card-elevated {
+  box-shadow: #aaa 0 2px 5px 0;
+  border: 0.5px solid #ddd;
+}
+
+.nmw-card-outlined {
+  border: 2px $nmw-color-s-d solid;
+}
+
+.nmw-card-filled {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, $nmw-color-s 0%, $nmw-smoke 100%);
+}

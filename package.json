@@ -1,0 +1,17 @@
+{
+  "name": "@nmw/react",
+  "workspaces": [
+    "packages/components",
+    "packages/documentation"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present",
+    "sd": "npm start --workspace=packages/documentation",
+    "sc": "npm start --workspace=packages/components",
+    "lint": "npm run lint --workspaces",
+    "format": "npm run format --workspaces",
+    "test": "npm run test --workspaces",
+    "pre-push": "npm run pre-push --workspaces"
+  }
+}

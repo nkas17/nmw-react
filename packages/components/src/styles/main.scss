@@ -1,0 +1,33 @@
+@use 'reset.css';
+@use 'card';
+@use 'content-box';
+@use 'button';
+@use 'input';
+@use 'navigation';
+@use 'utility';
+@use 'layout';
+
+body {
+  font-family: 'Andale Mono', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-weight: bold;
+  font-size: 1rem;
+}

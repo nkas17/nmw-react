@@ -1,0 +1,79 @@
+@import 'variables';
+
+.nmw-button {
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border: 0;
+}
+
+.nmw-button-primary-elevated {
+  background: $nmw-color-p;
+  border: 2px solid $nmw-color-p;
+  box-shadow: lightslategray 2px 2px 8px;
+  color: white;
+  &:hover {
+    background: $nmw-color-p-d;
+    border: 2px solid $nmw-color-p-d;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.nmw-button-secondary-elevated {
+  background: transparent;
+  color: $nmw-color-p;
+  border: 2px solid transparent;
+  box-shadow: lightslategray 2px 2px 8px;
+  &:hover {
+    border: 2px solid $nmw-color-p;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.nmw-button-primary-flat {
+  background: $nmw-color-p;
+  border: 2px solid $nmw-color-p;
+  color: white;
+  &:hover {
+    background: $nmw-color-p-d;
+    border: 2px solid $nmw-color-p-d;
+  }
+
+  &:active {
+    background: $nmw-color-p;
+    border: 2px solid $nmw-color-p;
+  }
+}
+
+.nmw-button-secondary-flat {
+  background: $nmw-color-s;
+  color: $nmw-color-p;
+  border: 2px solid transparent;
+  &:hover {
+    border: 2px solid $nmw-color-p;
+  }
+
+  &:active {
+    background: white;
+  }
+}
+
+.nmw-button-text {
+  background: transparent;
+  color: $nmw-color-p;
+  border: 2px solid transparent;
+  &:hover {
+    text-decoration: 2px $nmw-color-p underline;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}

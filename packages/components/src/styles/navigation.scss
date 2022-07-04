@@ -1,0 +1,35 @@
+@import 'variables';
+
+.nmw-nav-bar {
+  flex: 1;
+  margin: 0 auto;
+  max-width: 220px;
+  min-width: 220px;
+}
+
+.nmw-nav-item {
+  margin-right: 16px;
+  a {
+    padding: 16px 0 16px 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+
+    &:hover {
+      background: $nmw-color-s-d;
+      cursor: pointer;
+    }
+
+    &:active {
+      background: $nmw-color-s;
+    }
+  }
+}
+
+.nmw-nav-item--selected {
+  a {
+    background: $nmw-color-s;
+  }
+}

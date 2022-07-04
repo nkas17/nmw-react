@@ -1,0 +1,45 @@
+@import 'variables';
+
+.nmw-page-content {
+  margin: 16px;
+}
+
+.nmw-page-section {
+  flex: 3;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  line-height: 1.5;
+  overflow: visible;
+}
+
+.nmw-section {
+  line-height: 1.5;
+}
+
+.nmw-header {
+  margin: 16px;
+}
+
+.nmw-header__page {
+  position: sticky;
+  top: 0;
+  background: $nmw-smoke;
+  margin: 0;
+  padding: 16px;
+}
+
+.nmw-header__brand {
+  font-size: 1.5rem;
+  display: inline;
+  align-self: center;
+  padding-bottom: 6px;
+}
+
+.nmw-card-header {
+  margin: 0 0 16px 0;
+}
+
+.nmw-flex {
+  display: flex;
+}

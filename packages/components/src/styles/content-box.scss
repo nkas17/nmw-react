@@ -1,0 +1,21 @@
+@import 'variables';
+
+.nmw-content-box {
+  margin: 16px;
+  min-height: 96px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.nmw-content-box-elevated {
+  box-shadow: #aaa 0 2px 5px 0;
+  border: 0.5px solid #ddd;
+}
+
+.nmw-content-box-outlined {
+  border: 2px $nmw-color-s-d solid;
+}
+
+.nmw-content-box-filled {
+  background: #e0ecff;
+}
