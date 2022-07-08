@@ -3,11 +3,12 @@ import ErrorBoundary from './ErrorBoundary';
 
 export interface PageProps {
   children: React.ReactNode;
+  className?: string;
 }
-function Page({ children }: PageProps) {
+function Page({ children, className = '' }: PageProps) {
   return (
     <ErrorBoundary>
-      <main>{children}</main>
+      <main className={className}>{children}</main>
     </ErrorBoundary>
   );
 }

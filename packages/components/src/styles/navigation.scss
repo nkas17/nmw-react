@@ -7,6 +7,20 @@
   min-width: 220px;
 }
 
+.nmw-nav-bar__floating {
+  float: left;
+  position: fixed;
+  background: $nmw-color-s-l;
+  height: 100%;
+  width: 220px;
+  box-shadow: #aaa 0 2px 5px 0;
+  border: 0.5px solid #ddd;
+  border-radius: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+  padding: 8px;
+}
+
 .nmw-nav-item {
   margin-right: 16px;
   a {

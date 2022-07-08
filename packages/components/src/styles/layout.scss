@@ -1,5 +1,12 @@
 @import 'variables';
 
+.nmw-page-overlay {
+  background: rgba(3, 3, 3, 0.25);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
 .nmw-page-content {
   margin: 16px;
 }

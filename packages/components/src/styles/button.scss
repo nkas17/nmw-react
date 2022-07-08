@@ -70,7 +70,7 @@
   color: $nmw-color-p;
   border: 2px solid transparent;
   &:hover {
-    text-decoration: 2px $nmw-color-p underline;
+    text-decoration: 2px solid $nmw-color-p underline;
   }
 
   &:active {

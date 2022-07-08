@@ -7,15 +7,17 @@ export interface ButtonProps {
   className?: string;
   id?: string;
   name?: string;
+  onClick?: React.MouseEventHandler<Element> | undefined;
 }
 
-function Button({ children, id, name, type, className = '' }: ButtonProps) {
+function Button({ children, id, name, type, className = '', onClick }: ButtonProps) {
   return (
     <button
       id={id}
       name={name}
       type={type}
       className={className ? `${className} nmw-button` : 'nmw-button'}
+      onClick={onClick}
     >
       {`${children}`}
     </button>
