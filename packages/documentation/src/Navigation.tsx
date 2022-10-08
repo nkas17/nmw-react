@@ -11,6 +11,7 @@ function Navigation({ isShowing = true }: { isShowing: boolean }) {
           to="/cards"
           onClick={() => {
             setSelected('cards');
+            window.scrollTo(0, 0);
           }}
         >
           Cards
@@ -21,6 +22,7 @@ function Navigation({ isShowing = true }: { isShowing: boolean }) {
           to="/buttons"
           onClick={() => {
             setSelected('buttons');
+            window.scrollTo(0, 0);
           }}
         >
           Buttons
@@ -31,6 +33,7 @@ function Navigation({ isShowing = true }: { isShowing: boolean }) {
           to="/inputs"
           onClick={() => {
             setSelected('inputs');
+            window.scrollTo(0, 0);
           }}
         >
           Inputs

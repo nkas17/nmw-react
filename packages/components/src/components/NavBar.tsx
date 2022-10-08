@@ -6,7 +6,8 @@ export interface NavBarProps {
 }
 
 function NavBar({ children, isShowing = true }: NavBarProps) {
-  const isFloating = window.visualViewport.width < 680;
+  const width = window?.visualViewport?.width || 0;
+  const isFloating = width < 680;
   return isShowing ? (
     <aside className={`${isFloating ? 'nmw-nav-bar__floating' : 'nmw-nav-bar'}`}>
       <nav>{children}</nav>
