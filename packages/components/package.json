@@ -1,6 +1,6 @@
 {
   "name": "@nmw/react-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react components - working towards most things you'll need",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,8 +9,7 @@
     "dist/cjs/*",
     "dist/esm/*",
     "dist/*.ts",
-    "dist/*.css*",
-    "src/*"
+    "dist/*.css*"
   ],
   "scripts": {
     "clean": "npx rimraf dist/*",

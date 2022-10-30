@@ -1,6 +1,6 @@
 {
   "name": "@nmw/react-documentation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "app for documenting implementing and testing components during development",
   "main": "index.tsx",
   "scripts": {

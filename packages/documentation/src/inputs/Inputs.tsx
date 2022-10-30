@@ -20,7 +20,12 @@ function Inputs() {
         </div>
         <div className="nmw-top-16">
           {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-          <label htmlFor="checkbox">checkbox</label> <Input id="checkbox" type="checkbox" />
+          <label htmlFor="checkbox">checkbox</label>{' '}
+          <Input id="checkbox" type="checkbox" className="nmw-top-16" />
+        </div>
+        <div className="nmw-top-16">
+          {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+          <label htmlFor="checkbox">password</label> <Input id="checkbox" type="password" />
         </div>
       </ContentBox>
     </Section>
