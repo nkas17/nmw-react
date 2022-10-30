@@ -18,3 +18,15 @@ $nmw-color-p-d: $nmw-blue-dark;
 $nmw-color-s: $nmw-sky-blue;
 $nmw-color-s-l: $nmw-sky-light;
 $nmw-color-s-d: $nmw-sky-dark;
+
+:root {
+  // primary
+  --nmw-color-p: $nmw-color-p;
+  --nmw-color-p-l: $nmw-blue-light;
+  --nmw-color-p-d: $nmw-blue-dark;
+
+  // secondary
+  --nmw-color-s: $nmw-sky-blue;
+  --nmw-color-s-l: $nmw-sky-light;
+  --nmw-color-s-d: $nmw-sky-dark;
+}
