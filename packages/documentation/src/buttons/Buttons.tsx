@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import { Card, ContentBox, Button, Header, Section } from '@nmw/react-components';
 
@@ -18,10 +19,18 @@ function Buttons() {
           <Header className="nmw-card-header">
             <h6>elevated</h6>
           </Header>
-          <Button type="button" className="nmw-button-primary-elevated nmw-right-32">
+          <Button
+            type="button"
+            className="nmw-button-primary-elevated nmw-right-32"
+            onClick={() => console.log('nmw-button-primary-elevated')}
+          >
             Primary
           </Button>
-          <Button type="button" className="nmw-button-secondary-elevated">
+          <Button
+            type="button"
+            className="nmw-button-secondary-elevated"
+            onClick={() => console.log('nmw-button-secondary-elevated')}
+          >
             Secondary
           </Button>
         </Section>
@@ -29,13 +38,25 @@ function Buttons() {
           <Header className="nmw-card-header">
             <h6>flat</h6>
           </Header>
-          <Button type="button" className="nmw-button-primary-flat nmw-right-32">
+          <Button
+            type="button"
+            className="nmw-button-primary-flat nmw-right-32"
+            onClick={() => console.log('nmw-button-primary-flat')}
+          >
             Primary
           </Button>
-          <Button type="button" className="nmw-button-secondary-flat">
+          <Button
+            type="button"
+            className="nmw-button-secondary-flat"
+            onClick={() => console.log('nmw-button-secondary-flat')}
+          >
             Secondary
           </Button>
-          <Button type="button" className="nmw-button-text">
+          <Button
+            type="button"
+            className="nmw-button-text"
+            onClick={() => console.log('nmw-button-text')}
+          >
             Text
           </Button>
         </Section>
